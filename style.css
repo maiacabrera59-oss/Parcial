@@ -160,6 +160,9 @@ footer{
     .formulario{
         width: 70%;
     }
+    .hero{
+        padding: 10px;
+    }
 }
 html {
     scroll-behavior: smooth;
