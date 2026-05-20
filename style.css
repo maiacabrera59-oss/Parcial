@@ -5,20 +5,22 @@
 }
 body{
     background-color: #9ca3af;
+    color: black
 }
-.menu {
-            display: flex;
-            justify-content: center;
-            background-color: #D7CCC8; 
-            padding: 15px 0;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
 header{
     text-align: center;
     background-color: transparent;
     padding: 1rem;
-    color: #fff;
+    
 }
+.menu {
+            display: flex;
+            justify-content: center;
+            background-color: #64748B; 
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
         
         .menu ul {
             display: flex;
@@ -33,7 +35,7 @@ header{
         .menu a {
             display: inline-block;
             padding: 10px 40px;
-            background-color: #5D4037; 
+            background-color: #9CA3AF; 
             color: white;
             text-decoration: none;
             border-radius: 25px;       
@@ -43,7 +45,7 @@ header{
 
         
         .menu a:hover {
-            background-color: #3e2723; 
+            background-color: #374151; 
             transform: translateY(-2px); 
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
@@ -61,6 +63,7 @@ header{
     transition: 0.3s;
     background-color:#D7CCC8 ;
     border-radius: 10px;
+    padding: 50px;
 }
 .tarjeta:hover{
     transform: scale(1.05);
@@ -74,8 +77,13 @@ header{
     object-fit: cover;
     border-radius: 10px;
 }
-h1,h2,h3,p{
+h2,h3,h4,p{
     text-align: center;
+    margin:20px
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
 }
 .hero{
     display: flex;
@@ -83,6 +91,12 @@ h1,h2,h3,p{
     color: black;
     padding: 20px;
     margin-top: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.titulodegaleria{
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .formulario{
     width: 400px;
@@ -117,8 +131,8 @@ h1,h2,h3,p{
 }
 footer{
     text-align: center;
-    padding: 15px;
-    background-color: #362621;
+    padding: 1rem;
+    background-color: transparent;
     color: white;
     margin-top: 30px;
   
