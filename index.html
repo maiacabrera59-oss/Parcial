@@ -4,8 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos online</title>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+     <header>
+        <h1>Cursos online</h1>
+    </header>
+     <nav class="menu">
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Cursos">Cursos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="hero" id="Inicio">
+            <h2>Bienvenido a nuestros cursos online</h2>
+            <p>Ofrecemos una amplia variedad de cursos en línea para ayudarte a aprender nuevas habilidades y mejorar tus conocimientos. Explora nuestra selección de cursos y encuentra el que mejor se adapte a tus necesidades.</p>
+        </section>
+        <section id="Cursos">
+            <h2>Galeria de cursos</h2>
+           <div class="galeria">
+                <div class="tarjeta">
+                    <img src="./image/programacion.webp" alt="Curso 1-Programación">
+                    <h3>Curso de Programación</h3>
+                    <p>Aprende a programar desde cero con nuestro curso completo de programación. </p>
+                    <p>Duración: 8 semanas</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="./image/diseñográfico.webp" alt="Curso 2-Diseño Gráfico">
+                    <h3>Curso de Diseño Gráfico</h3>
+                    <p>Domina las herramientas de diseño gráfico y crea impresionantes proyectos visuales.</p>
+                    <p>Duración: 6 semanas</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="./image/marketing.webp" alt="Curso 3-Marketing Digital">
+                    <h3>Curso de Marketing Digital</h3>
+                    <p>Descubre las estrategias clave para tener éxito en el mundo del marketing digital.</p>
+                    <p>Duración: 10 semanas</p>
+                </div>
+                <div class="tarjeta">
+                  <h2>Curso destacado</h2>
+         <img src="./image/excel.jpg" alt="curso destacado-Excel">
+            <h3 id="tituloCurso"></h3>
+            <p id="descripcionCurso"></p>
+            <p id="duracionCurso"></p>
+                </div>
+            </section>
+           </div>
+        </section>
+
+         <section id="Contacto">
+        <h2>Contacto</h2>
+         <form class="formulario">
+            <input type="text" placeholder="Ingrese su nombre">
+            <input type="email" placeholder="Ingrese su email">
+            <textarea placeholder="Escriba un mensaje"></textarea>
+        
+            <button type="button" id="boton">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>©2026 Cursos online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
